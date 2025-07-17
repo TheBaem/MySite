@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio von Max Mustermann</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Profilbild Max Mustermann" class="profile-img">
+            <div>
+                <h1>Max Mustermann</h1>
+                <p class="subtitle">Webentwickler & Designer</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#skills">Fähigkeiten</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="container section">
+            <h2>Über mich</h2>
+            <p>
+                Hallo! Ich bin Max Mustermann, ein leidenschaftlicher Webentwickler aus Berlin. Mit über 5 Jahren Erfahrung in Frontend- und Backend-Entwicklung helfe ich Unternehmen, moderne und benutzerfreundliche Webseiten zu gestalten.
+            </p>
+        </section>
+        <section id="skills" class="container section">
+            <h2>Fähigkeiten</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript & TypeScript</li>
+                <li>React & Vue.js</li>
+                <li>Node.js & Express</li>
+                <li>UI/UX Design</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+        <section id="projects" class="container section">
+            <h2>Projekte</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://source.unsplash.com/400x250/?website,design" alt="Projekt 1">
+                    <h3>Modernes Portfolio</h3>
+                    <p>Ein responsives Portfolio-Template für Freelancer und Kreative.</p>
+                    <a href="#">Zum Projekt</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://source.unsplash.com/400x250/?app,code" alt="Projekt 2">
+                    <h3>ToDo App</h3>
+                    <p>Eine ToDo-App mit React, inklusive Dark Mode und Synchronisation.</p>
+                    <a href="#">Zum Projekt</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://source.unsplash.com/400x250/?dashboard,analytics" alt="Projekt 3">
+                    <h3>Admin Dashboard</h3>
+                    <p>Ein interaktives Dashboard für Datenvisualisierung und -verwaltung.</p>
+                    <a href="#">Zum Projekt</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container section">
+            <h2>Kontakt</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Nachricht</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2025 Max Mustermann. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
